@@ -88,8 +88,8 @@ nav {
 }
 
 .page1 {
-    width: 223vh;
-    height: 70  0px;
+    width: 100%;
+    height: 90vh;
     display: flex;
     margin: 0 auto;
     background-color: #F7F7F7;
@@ -100,7 +100,7 @@ nav {
     height: 250px;
     display: block;
     padding: 59px;
-    transform: translateX(3%);  
+    transform: translateX(-50%);  
     margin: 0 auto;  
 }
 
