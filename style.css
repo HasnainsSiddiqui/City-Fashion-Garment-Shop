@@ -470,6 +470,7 @@ nav {
     border-radius: 20px;
     margin-top: 40px;
     cursor: pointer;
+    overflow-x: hidden;
 }
 
 .ellisp-111 {
