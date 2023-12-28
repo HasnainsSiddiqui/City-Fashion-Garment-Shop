@@ -27,7 +27,7 @@ nav {
 .navbar {
     display: flex;
     align-items: center;
-    height: 13vh;
+    height: 15vh;
     margin: 0 auto;
     background: #F7F7F7;
     box-shadow: 0px 2px 0px 0px rgba(230, 229, 229, 0.789);
@@ -179,6 +179,7 @@ nav {
     display: block;
     width: 100%;
     height: 900px;
+    padding-top: 50px;
     padding-bottom: 110px;
 }
 
@@ -397,7 +398,7 @@ nav {
     width: 1920px;
     height: 700px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 200px;
     transform: translateY(-10%);
     position: relative;
@@ -455,7 +456,8 @@ nav {
 
 .boxes {
     width: 1500px;
-    height: 580px;;
+    height: 580px;
+    ;
     margin: 0 auto;
     display: flex;
 }
@@ -518,19 +520,12 @@ nav {
 }
 
 #arrow1 {
-    border: 2px solid black;
-    border-radius: 50%;
-    transform: rotate(180deg);
-}
-
-#arrow2 {
-    border: 2px solid black;
     border-radius: 50%;
 }
 
 .page4 {
     width: 1100px;
-    height: 600px;
+    height: 330px;
     margin: 0 auto;
     padding-top: 100px;
     transform: translateY(20%);
@@ -540,7 +535,7 @@ nav {
     display: flex;
     width: 1100px;
     height: 330px;
-    background-color:#004743;
+    background-color: #004743;
     border-radius: 20px;
     display: block;
 }
@@ -617,7 +612,185 @@ nav {
     background-color: #fff;
 }
 
-
 .img {
     margin-top: 20px;
+}
+
+.page5 {
+    display: flex;
+    width: 100%;
+    height: 840px;
+    margin: 0 auto;
+    transform: translateY(20%);
+}
+
+.page5-content-wrapper {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#Trending-Collection {
+    color: var(--Dark-Grey---Fashion, #323232);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+#page5-content-wrapper-paragraph {
+    color: var(--Dark-Grey---Fashion, #323232);
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -45px;
+    opacity: 0.5;
+}
+
+.products {
+    width: 1400px;
+    height: 530px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 40px;
+    transform: translateX(-20%);
+}
+
+.product1 {
+    width: 360px;
+    height: 500px;
+}
+
+#group29 {
+    width: 45px;
+    height: 153px;
+    flex-shrink: 0;
+    background-image: url(images/Group\ 29.png);
+    background-repeat: no-repeat;
+    margin-left: 255px;
+    transform: translateY(-140%);
+}
+
+.product1 img {
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.product2 {
+    margin-left: -20px;
+    width: 360px;
+    height: 450px;
+}
+
+.product2 img {
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.product3 {
+    margin-left: -20px;
+    width: 360px;
+    height: 450px;
+}
+
+.product3 img {
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.product4 {
+    margin-left: -20px;
+    width: 360px;
+    height: 450px;
+}
+
+.product4 img {
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+#product1-detail {
+    width: 314px;
+    height: 60px;
+    display: flex;
+    transform: translateY(-270%);
+}
+
+#product1-detail img {
+    width: 95.79px;
+    height: 15px;
+    flex-shrink: 0;
+    margin-top: 28px;
+    margin-left: 170px;
+}
+
+#Kids {
+    color: var(--Dark-Grey---Fashion, #323232);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+#Women {
+    color: var(--Dark-Grey---Fashion, #323232);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    width: 40px;
+}
+
+#product1-price-detail {
+    width: 312px;
+    height: 90px;
+    transform: translateY(-210%);
+}
+
+#Kurti {
+    color: var(--Dark-Grey---Fashion, #323232);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.prices {
+    width: 312px;
+    height: 50px;
+    display: flex;
+    margin-top: -40px;
+}
+
+#discounted-price {
+    margin-top: 16px;
+    color: #74CA4D;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#orignial-price {
+    margin-top: 20px;
+    margin-left: 18px;
+    color: var(--Dark-Grey---Fashion, #323232);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+
+.scroller {
+    width: 140px;
+    height: 60px;
+    margin: 0 auto;
+    cursor: pointer;
 }
