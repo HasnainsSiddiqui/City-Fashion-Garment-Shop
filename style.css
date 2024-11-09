@@ -204,8 +204,7 @@ nav {
 
 .cards {
     display: flex;
-    width: 1450px;
-    height: 310px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -218,8 +217,8 @@ nav {
 }
 
 .girl-image {
-    width: 360px;
-    height: 288px;
+    width: 300px;
+    height: 200px;
     cursor: pointer;
     transform: translateX(80%);
     margin-top: -311px;
@@ -227,7 +226,7 @@ nav {
 }
 
 .girl-image img {
-    width: 360px;
+    width: 300px;
 }
 
 .card1 h2 {
@@ -286,8 +285,8 @@ nav {
 }
 
 .boy-img {
-    width: 324px;
-    height: 288px;
+    width: 300px;
+    height: 200px;
     cursor: pointer;
     margin: -310px 0 0 0;
     transform: translateX(115%);
@@ -295,8 +294,8 @@ nav {
 }
 
 .boy-img img {
-    width: 360px;
-    height: 318px;
+    width: 300px;
+    height: 200px;
 }
 
 .card2 h2 {
@@ -343,7 +342,7 @@ nav {
     background-color: #fff;
     width: 1325px;
     height: 540px;
-    margin: 0 auto;
+    margin: 2rem auto;
     border-radius: 20px;
     transform: translateY(-6%);
     background: radial-gradient(846.18% 157.34% at 5.3% 76.06%, #EDEEF2 0%, #ECF0F3 100%);
